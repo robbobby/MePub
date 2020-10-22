@@ -5,6 +5,9 @@ class Pub:
         self.floor_h = floor_h
         self.floor_w = floor_w
         self.staff = staff
+        drink_stock = {}
+
 
     def change_pub_name(self, new_name):
         self.name = new_name
+
